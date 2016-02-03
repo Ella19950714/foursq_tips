@@ -192,7 +192,7 @@ category_Travel_Transport = ['Cruise', 'Metro Station', 'Transportation Service'
                              'Moving Target', 'Pier', 'RV Park', 'Rental Car Location', 'Rest Area', 'Road', 'Street',
                              'Subway', 'Taxi Stand', 'Taxi', 'Toll Booth', 'Toll Plaza', 'Tourist Information Center',
                              'Train Station', 'Platform', 'Train', 'Tram', 'Travel Lounge', 'Tunnel']
-
+'''
 GEOCODING_URL = 'https://maps.googleapis.com/maps/api/geocode/json?address='
 
 Google_API_Keys = ['AIzaSyD8zBWwbv5UAlfZ7YittgVzfs31G3H2KyU',
@@ -215,7 +215,7 @@ Google_API_Keys = ['AIzaSyD8zBWwbv5UAlfZ7YittgVzfs31G3H2KyU',
                     'AIzaSyDsDxv72suhwtCRi_MeDUaPPlh1pvBSwxU',
                     'AIzaSyA_DovVcmaSs0RD8HEI5EhAubKlLhpANaI',
                     'AIzaSyBBrjyxDWlj1rKe_staWBbPT7ap8nAAQmk']
-
+'''
 reload(sys)
 sys.setdefaultencoding('utf-8')
 h = httplib2.Http(disable_ssl_certificate_validation=True)

@@ -4,7 +4,7 @@ import random
 import json
 from foursq_utils import *
 
-
+'''
 def get_country(address):
     if len(address) == 0:
         return 'error'
@@ -27,3 +27,4 @@ def get_country(address):
     except:
         return 'error'
 
+'''

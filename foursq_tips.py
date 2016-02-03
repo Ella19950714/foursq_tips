@@ -86,6 +86,8 @@ def fetch_usr_tips(user_id):
         if tip_language == 'en':
             testimonial = TextBlob(tip_text)
             polarity = testimonial.sentiment.polarity
+
+
             a['polarity'] = polarity
         else:
             a['polarity'] = '-'
